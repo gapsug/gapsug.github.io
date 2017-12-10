@@ -1,8 +1,11 @@
 - name: Julien Nury
-    role: Trésorier
+  role: Trésorier
+
 - name: Dominique Broeglin
-    role: Président
+  role: Président
+
 - name: Alexandra Dias
-    role: Secrétaire
+  role: Secrétaire
+  
 - name: Laurent Danti
-    role: Membre
+  role: Membre
