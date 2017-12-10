@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Bienvenue sur le site du Geneva Azure & PowerShell user group
 
 ## Nos articles
