@@ -1,5 +1,4 @@
 ---
-layout: page
 title:  "Réinitialiser la configuration du LCM"
 date:   2017-12-10 10:00:00
 categories: DSC PowerShell
