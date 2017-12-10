@@ -1,15 +1,16 @@
 # Site settings
-title: Geneva Azure & PowerShell user group
+title: Geneva Azure & PowerShell User Group
 description: Articles, meetups et conférences
 url: "http://gapsug.ch/"
+paginate: 10
+paginate_path: "/articles/page/:num"
 
 #SEO settings
 logo: /assets/img/img-blog.png/ # Site logo URL
 # twitter_username: mateussousam # Twitter username
 
-gems:
+plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
 
