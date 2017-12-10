@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accueil
+title: Notre association
 description: Bienvenue sur le site du Geneva Azure & Powershell User Group.
 ---
 
