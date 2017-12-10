@@ -10,5 +10,5 @@ Retrouvez toutes les information sur le site [Meetup](https://www.meetup.com/fr-
 
 ## Nos derniers articles
 
-{% for post in paginator.posts %}
+{% for post in site.posts limit:10 %}
  - {{ post.date | date: "%-d %b, %Y" }} - [{{ post.title }}]({{ post.url }}) *par {{ post.author}}*{% endfor %}
