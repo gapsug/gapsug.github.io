@@ -1,6 +1,8 @@
 ---
-title: Réinitialiser la configuration du LCM
 layout: post
+title:  "Réinitialiser la configuration du LCM"
+date:   2017-12-10 10:00:00
+categories: DSC PowerShell
 ---
 # Réinitialiser la configuration du LCM sous PowerShell 4 et 5
 
