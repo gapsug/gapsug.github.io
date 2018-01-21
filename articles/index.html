@@ -7,10 +7,10 @@ description: Tous nos articles.
 <section class="blog">
 
     <ul class="post-list">
-      {% for post in paginator.posts %}
+      {% for post in paginator.posts %}{% assign author = site.data.authors[post.author] %}
         <li class="post-container"> 
 
-          <p> <span><i>{{ post.date | date: "%-d %b, %Y" }}</i></span> — <a class="post-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a> — {{ post.content | strip_html | truncatewords: 40  }} <a href="{{ post.permalink | prepend: site.baseurl }}"> Read more... </a> </p>
+          <p> <span><i>{{ post.date | date: "%-d %b, %Y" }} - par {{ author.name}}</i></span> — <a class="post-link" href="{{ post.permalink | prepend: site.baseurl }}">{{ post.title }}</a> — {{ post.content | strip_html | truncatewords: 40  }} <a href="{{ post.permalink | prepend: site.baseurl }}"> Lire la suite ... </a> </p>
 
         </li>
       {% endfor %}
