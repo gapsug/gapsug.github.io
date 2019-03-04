@@ -2,10 +2,7 @@
   role: Président
 
 - name: Julien Nury
-  role: Trésorier
-
-- name: Alexandra Dias
-  role: Secrétaire
+  role: Membre
 
 - name: Laurent Danti
   role: Membre
